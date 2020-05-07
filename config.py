@@ -5,7 +5,7 @@ class Config:
     '''
     General configuration parent class
     '''
-    SECRET_KEY = 'powerfulsecretkey'
+    SECRET_KEY = 'duncan'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     # simple mde  configurations
     SIMPLEMDE_JS_IIFE = True
@@ -38,7 +38,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://liz:lizzie@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI='postgresql+psycopg2://dun:123456@localhost/pitch'
     DEBUG = True
 
 
